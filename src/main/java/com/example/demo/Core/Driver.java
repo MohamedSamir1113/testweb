@@ -4,12 +4,10 @@ import java.util.ArrayList;
 
 public class Driver {
     boolean isVerified;
-    ArrayList<String> FavAreas = new ArrayList<>();
-    ArrayList<Ride> DriverHistory = new ArrayList();
-    ArrayList<Ride> IntrestedRides = new ArrayList<>();
+
     String nationalID;
     String driverLicense;
-   // FavAreasclass objfavarea;
+    // FavAreasclass objfavarea;
     Ride[] historyofrides;
     public Driver(){
         //objfavarea.subscribe(this);

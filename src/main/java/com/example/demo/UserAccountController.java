@@ -34,4 +34,5 @@ public class UserAccountController {
     }
     @GetMapping("/getinfo")
     public HashMap<Integer, UserAccount> getAll(){return s1.getAll();}
+
 };
