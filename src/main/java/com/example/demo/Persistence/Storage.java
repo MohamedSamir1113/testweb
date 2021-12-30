@@ -7,7 +7,7 @@ public interface Storage {
 
     public boolean register(UserAccount account);
 
-    public boolean login(String usname, String passwd);
+    public boolean login(String username, String password);
 
     public HashMap<Integer,UserAccount> getAll();
 }

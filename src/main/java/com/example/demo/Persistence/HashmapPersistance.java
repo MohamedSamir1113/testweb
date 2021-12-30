@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.example.demo.Core.Ride;
 import com.example.demo.Core.UserAccount;
 
 public class HashmapPersistance implements  Storage{
@@ -20,11 +21,11 @@ public class HashmapPersistance implements  Storage{
     }
 
     @Override
-    public boolean login(String usname, String passwd)
+    public boolean login(String username, String password)
     {
         for (Integer i : Accounts.keySet()) {
 
-            if(Accounts.get(i).getUsername().contentEquals(usname) && Accounts.get(i).getPassword().contentEquals(passwd)  )
+            if(Accounts.get(i).getUsername().contentEquals(username) && Accounts.get(i).getPassword().contentEquals(password))
             {
                 System.out.println("valid, welcome user");
                 return true;
