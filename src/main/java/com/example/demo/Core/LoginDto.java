@@ -1,6 +1,6 @@
 package com.example.demo.Core;
 
-public class loginDto {
+public class LoginDto {
     private String username;
     private String password;
 
