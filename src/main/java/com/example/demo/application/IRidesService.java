@@ -4,7 +4,7 @@ import java.util.List;
 import com.example.demo.Core.Ride;
 
 public interface IRidesService {
-    boolean add(Ride person);
+    boolean add(Ride ride);
 
     Ride get(int id);
 
